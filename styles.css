@@ -7,6 +7,7 @@ body {
     background-size:cover;
     background-position-y: -120px;
     
+    
 }
 
 .logo {
@@ -248,6 +249,8 @@ button.android {
     }
 
     
+
+    
     .intro-text {
         left: 50px;
         width: 65%;
@@ -289,11 +292,21 @@ button.android {
 }
 
 @media only screen and (max-width: 905px) {
+    .top-right-container {
+        display: flex;
+        overflow: hidden;
+        height: 400px;
+        width: 230px;
+        position: absolute;
+        right: 0%;
+        top: 0;
+    }
+    
     .top-right-graphic {
         width: 266.67px;
         height: 400px;
         top: -32px;
-        right: -35px;
+        right: -40px;
     }
 
     
@@ -307,6 +320,7 @@ button.android {
         right: 10%;        
         top: 920px;
         width: 399px;
+        height: 546px;
     }
     
     img {
@@ -332,6 +346,20 @@ button.android {
         height: 140px;
         font-size: 18px;
         line-height: 28px;
+    }
+
+    button.ios {
+        width: 296px;
+        height: 61px;
+        left: 326px;
+        top: 1280px;
+    }
+
+    button.android {
+        width: 296px;
+        height: 61px;
+        left: 326px;
+        top: 1357px;  
     }
 }
 
@@ -388,13 +416,67 @@ button.android {
         position: relative;
     }
 
-    .flex-container {
+    .flex-container-phone {
         display: flex;
         justify-content: center;
         top: 524px;
         width: 100%;
         position: absolute;
         top: 524px;
+    }
+
+    #bbox {
+        width: 100vw;
+        top: 622px;
+    }
+
+    .background-graphic {
+        width: 280px;
+        height: 420px;
+        top: 622px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .flex-container-obox {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    #obox {
+        right: 0;
+        left: 0;
+        width: 100%;
+        top: 1002px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        margin: 0 0 0 0;
+        width: 302px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #obox div {
+        width: 302px;
+        margin: 0 0 0 8px;
+    }
+
+    button.ios {
+        margin-top: 32px;
+    }
+
+    body {
+        margin: 0;
     }
    
 
@@ -403,7 +485,6 @@ button.android {
 @media only screen and (max-width: 475px) {
     h1 {
         position: absolute;
-        width: 327px;
         height: 144px;
         left: 24px;
         top: 136px;
@@ -420,6 +501,7 @@ button.android {
 
     .intro-text {
         font-size: 16px;
+        margin-top: 0%;
     }
 
     
