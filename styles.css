@@ -221,6 +221,7 @@ button.android {
     letter-spacing: -0.18px;
     color: #191826;
     border: 0;
+    transition: 0.5s;
 }
 
 button.android:hover {
