@@ -228,6 +228,11 @@ button.android:hover {
     transition: 0.5s;
 }
 
+button.android:target {
+    background-color: #FFB964;
+    transition: 0.5s;
+}
+
 .android .icon {
     background-image: url(assets/icon-android.svg);
     width: 17px;
